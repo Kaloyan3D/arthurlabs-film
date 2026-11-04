@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+assets/footage/*
+assets/audio/narration/*
+assets/audio/music/*
+assets/audio/sfx/*
+!assets/**/.gitkeep
+renders/previews/*
+renders/final/*
+!renders/**/.gitkeep
