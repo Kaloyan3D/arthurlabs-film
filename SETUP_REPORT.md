@@ -59,8 +59,14 @@ finished film as required by the OpenAI speech guidance.
 [GPT-Live WebSockets](https://developers.openai.com/api/docs/guides/voice-websockets) ·
 [Text to speech](https://developers.openai.com/api/docs/guides/text-to-speech)
 
-The API adapters are locally type-checked. Live API authentication and voice
-quality have not been tested. No paid request or saved voice was created.
+Both narration adapters passed authenticated smoke tests with the built-in
+`marin` voice and the same short test line. FFprobe verified 24 kHz mono
+16-bit PCM WAV output for Speech (3.10 s) and GPT-Live (6.18 s).
+The GPT-Live transcript matched the test line exactly. The takes are in
+`assets/audio/narration/phase-0-speech.wav` and
+`assets/audio/narration/phase-0-live.wav`. These tests used two authorized
+billable requests. Saved voice creation and production-length delivery
+remain untested.
 The separately supplied `ARTHURLABS_VIDEO_TRUTH.md`, an approved script and
 real product recordings are needed before production. The five-second proof
 uses synthetic sound and abstract graphics to test the pipeline.

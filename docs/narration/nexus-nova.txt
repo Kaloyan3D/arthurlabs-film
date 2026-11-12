@@ -1,0 +1,7 @@
+We're planning an extension to Nexus Native.
+
+Nexus Nova.
+
+One agent for simple work. A primary and a supporting agent for complex tasks.
+
+And when work can be divided, a coordinator brings parallel results back together for verification.

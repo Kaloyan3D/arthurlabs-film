@@ -1,0 +1,11 @@
+Building software is one challenge. Trusting it is another.
+
+Meet Sentry. Independent reviewers examine the same frozen source, each in its own workspace.
+
+Here, one review traced a finding to the code that reads a snapshot manifest.
+
+The evidence stays attached, even when the overall run is partial.
+
+A local replay tests that specific behavior.
+
+Because what we build deserves to be challenged.

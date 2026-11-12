@@ -1,0 +1,7 @@
+Long-running agents face another challenge. Context.
+
+Context Compaction V two separates active work, relevant prior decisions, and recoverable detail.
+
+Hot. Warm. Cold.
+
+At safe boundaries, checkpoints preserve a path back to the original history.

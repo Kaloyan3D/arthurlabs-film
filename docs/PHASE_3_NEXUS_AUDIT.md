@@ -1,0 +1,9 @@
+# Nexus repository audit
+
+Remote heads were inspected on November 4, 2026. The source baseline is Nexus `dev` at `3b90bdd4bdbb39519ba5b4870de753db8d8ccea7`, the merge of the Native harness and desktop platform. The local linux-arm64 checkout was at `04521de3b5230b6d80b329f19b0a5676d8aa4af0` and is an ancestor of that merge. Neither named feature branch was advertised as a current remote head. The film did not modify the original checkout. [Audited dev snapshot](https://github.com/Kaloyan3D/Nexus/tree/3b90bdd4bdbb39519ba5b4870de753db8d8ccea7)
+
+- DSH lives outside the Rust workspace in the Node/PowerShell controller, Control Room UI and vendor tree. The pinned DeepSeek artifact and routing patch establish upstream provenance. The local controller and host platform tests passed. The fuller bootstrap probe did not complete because the pinned PowerShell executable was unavailable.
+- Native is the separate Rust workspace. Its broker, execution kernel, native runtime and store have their own execution and evidence boundaries. The local macOS build stopped at Linux-specific peer credentials. The unmodified Linux ARM64 verification suite ran successfully in the existing Lima VM.
+- CCv2 is documented as a scoped dev integration with release-candidate evidence, including a specific OpenCode Go/Muse route. The selected architecture layers are conceptual. A local foundation-hardening run stopped at the durable-mutation gate, and the film makes no new claim of local CCv2 validation.
+- Nova is future Native work. The preview registry mode is non-runnable. The brief's cost-tier modes are illustrated as proposed design.
+- Meta appears twice with explicit scope. Native includes recorded desktop states from a Taskboard acceptance run on Muse Spark 1.3 Contributor through OpenCode Go. CCv2 cites the separate §54 DSH-route RC1 validation. Neither item establishes a platform-wide or production integration.

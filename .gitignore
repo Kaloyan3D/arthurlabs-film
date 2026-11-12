@@ -11,3 +11,9 @@ assets/audio/sfx/*
 renders/previews/*
 renders/final/*
 !renders/**/.gitkeep
+.env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+dist/

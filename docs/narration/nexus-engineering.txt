@@ -1,0 +1,15 @@
+Understanding an idea is only the beginning.
+
+Turning it into working software takes something more.
+
+Meet Nexus.
+
+Nexus D S H builds on DeepSeek's harness. Its controller binds tasks to an execution path, with a separate route for review.
+
+Nexus Native takes a different approach. An original Rust harness, with its own broker, execution kernel, and evidence ledger.
+
+Consider a command that exits cleanly because a fallback hides the failure.
+
+In this test, the broker treats that result as inconclusive.
+
+Because a successful exit isn't the same as proof.
